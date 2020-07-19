@@ -34,7 +34,6 @@ class PermissionInfoSedeer extends Seeder
         $useradmin = User::create([
             'name'       =>  'admin',
             'email'      => 'admin@admin.com',
-            'co_usuario' => 'admin',
             'password'   => Hash::make('admin')
         ]);
 
